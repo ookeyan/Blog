@@ -1,0 +1,99 @@
+
+.subscribe{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.subscribe:hover{
+    opacity: 0.8;
+
+}
+.subscribe:active{
+    opacity: 0.5;
+}
+.join{
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    vertical-align: top;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;        
+    transition: background-color 0.15s ,color 0.15s;
+}
+.join:hover{
+    color: white;
+    background-color: rgb(6, 95, 212);;
+}
+.join:active{
+    opacity: 0.7;
+}
+
+.tweet{
+    background-color: rgb(29 155 240);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    height: 36px;
+    width: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0 ,0 ,0, 0.15);
+}
+
+.uber{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.uber:hover{
+    opacity: 0.8;
+}
+.uber:active{
+    opacity: 0.5;
+}
+.amazon{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 36px;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 90px;
+    cursor: pointer;
+}
